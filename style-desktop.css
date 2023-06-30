@@ -1,0 +1,225 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #393d41;
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+}
+
+header {
+  background-color: black;
+  padding: 30px;
+  text-align: left;
+}
+
+header img {
+  width: 180px;
+  margin-left: 30px;
+}
+
+.introduction {
+  background-image: url(../images/banner.jpg);
+  background-position: top;
+
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 10em;
+  margin-bottom: 50px;
+  object-fit: cover;
+}
+
+h1 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-size: 37px;
+  margin: 4em 19em 1em;
+}
+
+.introduction p {
+  margin-inline: 30em;
+  padding-bottom: 30px;
+}
+
+.introduction button {
+  margin: 10px auto;
+  border: 5px solid #f04c2f;
+  background-color: #f04c2f;
+  border-radius: 7px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  width: 10%;
+  padding-block: 10px;
+}
+
+main {
+  text-align: center;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #25a2c3;
+  line-height: 1.5;
+  margin: 20px 30px 0px;
+  font-weight: 700;
+}
+
+main > img {
+  border-radius: 47% 53% 52% 48% / 51% 52% 48% 49%;
+  width: 28%;
+  float: left;
+  margin-left: 17em;
+  margin-top: 100px;
+}
+
+.photo-and-writing {
+  text-align: left;
+  display: inline-block;
+
+  padding-top: 180px;
+  padding-bottom: 200px;
+}
+
+main p {
+  margin: 5px 30px;
+}
+
+.guaranteed {
+  color: white;
+  background-color: #e22d0e;
+  padding-bottom: 150px;
+  margin-top: 100px;
+  margin-bottom: 7em;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 33px;
+  font-weight: 700;
+  padding-top: 170px;
+  padding-bottom: 20px;
+}
+
+.guaranteed p {
+  font-style: italic;
+  font-size: 20px;
+}
+
+h4 {
+  margin-block-start: 40px;
+  margin-bottom: 2px;
+  font-size: 25px;
+}
+
+.guaranteed p:last-child {
+  font-style: normal;
+  font-size: 15px;
+}
+
+img {
+  margin: 0;
+  width: 100%;
+}
+
+.descriptions {
+  margin: 10px 0px;
+}
+
+.descriptions + p {
+  margin-inline-start: 30px;
+  margin-block-start: 5px;
+  padding-bottom: 50px;
+}
+
+.border-photo {
+  display: inline-block;
+  border: solid #dee1e3 0.1px;
+  border-radius: 4px;
+  height: 471px;
+  width: 482.2px;
+  margin-inline: 50px;
+  vertical-align: bottom;
+}
+
+.border-photo img {
+  width: 25em;
+  margin: 0 auto;
+}
+
+.border-photo p {
+  padding-right: 1px;
+}
+
+.border-photo2 {
+  display: inline-block;
+  border: solid #dee1e3 0.1px;
+  border-radius: 4px;
+  height: 471px;
+  width: 482.2px;
+  margin-inline: 50px;
+}
+
+.border-photo2 img {
+  width: 25em;
+}
+
+.border-photo2 p {
+  padding: 0;
+}
+
+.border-photo3 {
+  height: 311.98px;
+}
+footer {
+  color: #c8e7f0;
+  text-align: left;
+  background-color: #25a2c3;
+  padding-bottom: 60px;
+  margin-top: 10em;
+}
+
+footer h2 {
+  color: white;
+  padding-block-start: 35px;
+  padding-block-end: 20px;
+  margin-left: 28em;
+}
+
+footer i {
+  margin: 0 5px;
+  color: white;
+  margin-left: 47.8em;
+}
+footer a {
+  font-family: "Open Sans", sans-serif;
+  color: #c8e7f0;
+  padding: 0;
+  margin: auto;
+}
+
+footer p {
+  padding-bottom: 15px;
+  color: #c8e7f0;
+}
+
+footer hr {
+  background-color: #c8e7f0;
+  width: 30%;
+  margin: auto;
+}
+
+h6 {
+  padding-top: 15px;
+  font-size: 1rem;
+  color: #c8e7f0;
+  margin-left: 58em;
+}
